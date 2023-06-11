@@ -1,0 +1,38 @@
+name: exum_m5
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: My_MCO
+    - family: My_Flights
+    - family: My_Orlando
+
+      fonts:
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+        - asset: assets/fonts/Overpass-Light.ttf
+        - asset: assets/fonts/Overpass-Medium.ttf
+
+
+  uses-material-design: true
+
